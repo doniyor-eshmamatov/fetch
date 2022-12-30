@@ -26,8 +26,8 @@ function render(array, node) {
         elLi.appendChild(elImg)
         elLi.appendChild(elTitle)
         elLi.appendChild(elYear)
-        
-        node.appendChild(elTemplate);
+
+        node.appendChild(elLi);
     });
     
 }
