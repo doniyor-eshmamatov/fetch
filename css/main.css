@@ -1,0 +1,54 @@
+.container {
+    max-width: 1240px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+input, button {
+    padding: 12px;
+    border: 1px solid #a8a8a8;
+    color: #a8a8a8;
+    outline: none;
+}
+input {
+    margin-right: 10px;
+}
+
+
+.list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.list-item {
+    border-radius: 8px;
+    box-shadow: 0 0 5px 1px #a8a8a8;
+}
+.item-img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.item-title {
+    margin: 8px 2px;
+}
+
+.item-year {
+    margin: 8px 2px;
+}
+
